@@ -1,0 +1,10 @@
+.App {
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  @media (min-width: 1020px) {
+    display: flex;
+    max-width: 950px;
+  }
+}
